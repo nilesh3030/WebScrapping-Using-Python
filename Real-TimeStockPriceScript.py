@@ -1,4 +1,4 @@
-def Curr_Price(stock_name):
+def Curr_Stock_Price(stock_name):
     import requests
     from bs4 import BeautifulSoup
     
@@ -22,5 +22,3 @@ def Curr_Price(stock_name):
             index = data_array.index(item)+1
             latest_price = data_array[index].split('"')[1]
             return latest_price
-        
-print("Current Price of Stock: " + Curr_Price("RELIANCE"))
