@@ -1,2 +1,2 @@
 # WebScrapping-Using-Python
-Scrapping the Data frk NSE website to get the real-time stock prices
+Created a Funtion using python libraries that pulls the real-time stock prices from NSE website. It also has a threshold feature where we can set a streshold value for a particular stock and it alerts you with a beep sound when stock prices reaches the threshold set by user.
